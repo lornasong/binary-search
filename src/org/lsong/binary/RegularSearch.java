@@ -44,9 +44,15 @@ public class RegularSearch {
 			int i = 0;
 			while (i < getLength()) {
 
+				//Check if firstPos is out of range, value is not in array
+				if (firstPos > lastPos){
+					return -1;
+				}
+				
 				// Find middle index and value
 				int increment = (lastPos - firstPos) / 2;
 				int midPos = firstPos + increment;
+				
 				int midVal = searchArray.get(midPos);
 
 				if (searchVal == midVal) {

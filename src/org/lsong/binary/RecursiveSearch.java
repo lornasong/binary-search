@@ -49,7 +49,7 @@ public class RecursiveSearch {
 		try {
 
 			// Value is not in array
-			if (lastPos == firstPos && searchVal != searchArray.get(lastPos)) {
+			if (firstPos > lastPos) {
 				return -1;
 			}
 

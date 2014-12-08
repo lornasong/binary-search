@@ -74,6 +74,7 @@ public class RecursiveSearchTest {
 		assertEquals(test.searchForValue(6), 1);
 		assertEquals(test.searchForValue(800), 7);
 		assertEquals(test.searchForValue(9111), 8);
+		assertEquals(test.searchForValue(911199), -1);
 	}
 	
 	@Test

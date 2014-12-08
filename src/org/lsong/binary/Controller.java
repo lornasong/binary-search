@@ -21,7 +21,7 @@ public class Controller {
 
 	public static void main(String[] args) {
 
-		int size = 100;
+		int size = 100000;
 
 		// Load a random sorted array
 		List<Integer> a = new ArrayList<Integer>();
@@ -29,7 +29,7 @@ public class Controller {
 		Random rand = new Random();
 
 		for (int i = 0; i < size; i++) {
-			Integer num = rand.nextInt(1000);
+			Integer num = rand.nextInt(100);
 			a.add(num);
 		}
 

@@ -53,7 +53,7 @@ public class RegularSearchTest {
 		List<Integer> b = new ArrayList<Integer>();
 		b.add(4);
 		RegularSearch test = new RegularSearch(b);
-		assertEquals(test.searchForValue(21), -2);
+		assertEquals(test.searchForValue(21), -1);
 	}
 
 }
