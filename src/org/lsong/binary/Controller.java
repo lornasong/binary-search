@@ -48,7 +48,7 @@ public class Controller {
 			try {
 				value = Integer.parseInt(reader.readLine());
 				System.out.println(test.searchForValue(value));
-			} catch (NumberFormatException | IOException e) {
+			} catch (IOException e) {
 				System.out.println("Ending");
 			}
 		}
